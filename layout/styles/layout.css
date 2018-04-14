@@ -44,6 +44,7 @@ File: Layout CSS
 
 /* Content */
 #content{}
+#content{}
 
 /* Comments */
 #comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
@@ -189,14 +190,14 @@ table tbody tr.dark{}
 #services a h2{font-size:32px;}
 #services a:hover, #services a:hover h2{}
 #services a.service{background-position:0 0; background-repeat:no-repeat;}
-#services a.s-1{background-image:url("images/icons/icon-1.png"); background-position:-185px 20px;}
+#services a.s-1{background-image:url("images/icons/kundli.jpeg"); background-position:46px 20px;}
 #services a.s-1:hover{background-position:46px 20px;}
-#services a.s-2{background-image:url("images/icons/icon-2.png"); background-position:-180px 20px;}
-#services a.s-2:hover{background-position:51px 20px;}
-#services a.s-3{background-image:url("images/icons/icon-3.png"); background-position:-180px 20px;}
-#services a.s-3:hover{background-position:51px 20px;}
-#services a.s-4{background-image:url("images/icons/icon-4.png"); background-position:-170px 20px;}
-#services a.s-4:hover{background-position:61px 20px;}
+#services a.s-2{background-image:url("images/icons/shri_krishna.jpeg"); background-position:46px 20px;}
+#services a.s-2:hover{background-position:46px 20px;}
+#services a.s-3{background-image:url("images/icons/yagna.jpeg"); background-position:46px 20px;}
+#services a.s-3:hover{background-position:46px 20px;}
+#services a.s-4{background-image:url("images/icons/eclipse.jpeg"); background-position:46px 20px;}
+#services a.s-4:hover{background-position:46px 20px;}
 
 
 /* Group CSS3 Attributes
@@ -220,16 +221,16 @@ table tbody tr.dark{}
 ---------------------------------------------------------------------------------------------------------------*/
 
 /*body{color:#FFE082; background:url("images/Kailash_north.JPG") top center no-repeat fixed #2B2B2B; background-size:cover;}*/
-body{color:#FFD740; background:url("images/Kailash_north.JPG") top center no-repeat fixed #FFD740; background-size:cover;}
+body{color:#FFD740; background:url("images/backg_swastik.jpeg") #FDD835;}
 
 .imgholder, .imgl, .imgr{border-color:#D6D6D6;}
 
 /* Rows */
 .wrapper a{color:#FFD740; background-color:transparent;}
-.row1{color:#EF6C00; border-color:#76C38F;}
+.row1{color:#EF6C00; border-color:#E65100;}
 .row2, .row2 a{}
-.row3{color:#979797; background-color:#303030; border-color:#000000;}
-.row3 a{color:#76C38F; background-color:#303030;}
+.row3{color:#FF6F00; background-color:#FFECB3; border-color:#000000;}
+.row3 a{color:#FF6F00; background-color:transparent;}
 .row4{border-color:#3A3A3A;}
 .row4, .row4 a{color:#979797; background-color:#2B2B2B;}
 .row1, #content, .sidebar{background-color:#FFC107;}
@@ -239,9 +240,9 @@ body{color:#FFD740; background:url("images/Kailash_north.JPG") top center no-rep
 
 /* Content Area */
 #comments li.comment_odd{color:#666666; background-color:#F7F7F7;}
-#comments li.comment_odd a{color:#76C38F; background-color:#F7F7F7;}
+#comments li.comment_odd a{color:#E65100; background-color:#F7F7F7;}
 #comments li.comment_even{color:#666666; background-color:#E8E8E8;}
-#comments li.comment_even a{color:#76C38F; background-color:#E8E8E8;}
+#comments li.comment_even a{color:#E65100; background-color:#E8E8E8;}
 #comments figure{border:1px solid #DEDACB;}
 
 .sidebar h2{border-bottom:2px solid #666666;}
@@ -253,20 +254,20 @@ body{color:#FFD740; background:url("images/Kailash_north.JPG") top center no-rep
 
 /* Navigation */
 #header nav ul li a:link, #header nav ul li a:visited, #header nav ul li a:hover{color:#FFFFFF; background-color:transparent;}
-#header nav ul li a:hover, #header nav ul li.active a{color:#FFFFFF; background-color:#76C38F;}
+#header nav ul li a:hover, #header nav ul li.active a{color:#FFFFFF; background-color:#E65100;}
 #header nav ul li ul li a:link, #header nav ul li ul li a:visited{color:#FFFFFF; background-color:#000000;}
-#header nav ul li ul li a:hover{color:#FFFFFF; background-color:#76C38F;}
+#header nav ul li ul li a:hover{color:#FFFFFF; background-color:#FF6F00;}
 
-.sidebar nav a{color:#979797; background-image:url("images/file.gif"); background-color:transparent; border-bottom:1px solid #666666;}
-.sidebar nav a:hover{color:#76C38F; background-color:#666666;}
+.sidebar nav a{color:#FDD835; background-image:url("images/file.gif"); background-color:transparent; border-bottom:1px solid #FDD835;}
+.sidebar nav a:hover{color:#E65100; background-color:#FDD835;}
 .sidebar nav ul ul a, .sidebar nav ul ul ul a, .sidebar nav ul ul ul ul a, .sidebar nav ul ul ul ul ul a{background-image:url("images/black_file.gif"); background-color:transparent;}
 
 /* Forms */
 #comments form input, #comments form textarea{border:1px solid #CCCCCC;}
 #comments form #submit, #comments form #reset{color:#666666; background-color:#F7F7F7;}
 
-#footer input, #footer textarea{color:#979797; background-color:#222222;}
-#footer button{color:#FFFFFF; background-color:#76C38F;}
+#footer input, #footer textarea{color:#979797; background-color:#FDD835;}
+#footer button{color:#FFFFFF; background-color:#FF6F00;}
 
 /* Tables */
 table, table thead th, table tbody td{border:1px solid #CCCCCC;}
@@ -277,7 +278,7 @@ table tbody tr.dark{color:#666666; background-color:#E8E8E8;}
 
 /* Gallery */
 #showcase h2::before{border-top:3px solid #303030;}
-#showcase h2 span{color:#FFFFFF; background-color:#303030;}
+#showcase h2 span{color:#FFFFFF; background-color:#FF8F00;}
 #showcase ul li a{color:#FFFFFF; background-color:transparent; border:5px solid #FFFFFF;}
 #showcase ul li figure a strong{background-color:hsla(0,0%,0%,.5);}
 #showcase ul li a:hover{border-color:hsla(139,39%,61%,.5);}
@@ -285,9 +286,9 @@ table tbody tr.dark{color:#666666; background-color:#E8E8E8;}
 /* Homepage */
 #homepage #services a{border:1px solid #E4E4E4; color:#E65100; background-color:#FFC107;}
 #homepage #services a h2{color:#FF6F00; background-color:#FFFFFF;}
-#homepage #services a:hover, #homepage #services a:hover h2{color:#FFFFFF; background-color:#76C38F; border-color:#76C38F;}
+#homepage #services a:hover, #homepage #services a:hover h2{color:#FFFFFF; background-color:#E65100; border-color:#E65100;}
 
 /* Slider */
 #slider h1, #slider h2, #slider h3, #slider h4, #slider h5, #slider h6{color:#E65100; background-color:transparent;}
-#slider_content ul li figure figcaption footer a{color:#FFFFFF; background-color:#76C38F;}
+#slider_content ul li figure figcaption footer a{color:#FFFFFF; background-color:#E65100;}
 #featured-item-prev, #featured-item-next{background-image:url("images/carousel/prev_next.png"); background-color:transparent;}
